@@ -7,7 +7,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todo-card {
+  display:flex;
+}
+
+.todo-item, .todo-input {
+  font-size:16px;
+  font-weight: bold;
+  width: 50%;
+  outline: none;
+  font-family: inherit;
+  
+}
+
+.todo-input {
+  border: 1px solid red;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.todo-content {
+  display:inline-block;
+  width: 50%;
+  font-weight: bold;
+  padding: 3px;
+  border: 1px solid rgb(216, 170, 170);
+  border-radius: 10px;
+}
+
+.todo-btn {
+  width: 60px;
 }
